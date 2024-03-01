@@ -69,7 +69,7 @@
 						</exclude>
 					</excludes>
 					<image>
-						<name>ngorseck/${project.artifactId}:${project.version}</name>
+						<name>${docker.user}/your-image-name:${project.version}</name>
 					</image>
 					<docker>
 						<publishRegistry>

@@ -8,4 +8,6 @@ RUN mkdir -p /app/data
 
 ADD docker/dockervolume.jar dockervolume.jar
 
+WORKDIR /app/data
+
 ENTRYPOINT ["java", "-jar", "dockervolume.jar"]
